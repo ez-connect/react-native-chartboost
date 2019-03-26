@@ -1,9 +1,10 @@
 {
-  "name": "react-native-react-native-chartboost",
-  "version": "1.0.0",
+  "name": "react-native-chartboost",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "yarn tsc",
     "android": "pushd example; yarn android; popd",
     "ios": "pushd example; yarn ios; popd"
   },
@@ -15,12 +16,13 @@
   "author": "Ez-Connect",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2",
-    "react-native-fs": "^2.13.3",
     "react-native-windows": "0.41.0-rc.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
-    "@types/react-native": "^0.57.41"
+    "@types/react-native": "^0.57.41",
+    "react-native": "^0.41.2",
+    "react-native-fs": "^2.13.3",
+    "typescript": "^3.3.4000"
   }
 }
