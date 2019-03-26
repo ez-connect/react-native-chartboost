@@ -1,0 +1,6 @@
+rootProject.name = 'example'
+
+include ':react-native-chartboost'
+project(':react-native-chartboost').projectDir = new File(rootProject.projectDir, '../../android')
+
+include ':app'

@@ -1,0 +1,13 @@
+{
+    // When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": true,
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "tslint.alwaysShowRuleFailuresAsWarnings": true,
+    "tslint.exclude": [
+        "**/node_modules/**"
+    ],
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "java.configuration.updateBuildConfiguration": "disabled"
+}

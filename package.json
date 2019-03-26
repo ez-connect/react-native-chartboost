@@ -1,20 +1,26 @@
-
 {
   "name": "react-native-react-native-chartboost",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "android": "pushd example; yarn android; popd",
+    "ios": "pushd example; yarn ios; popd"
   },
   "keywords": [
+    "chartboost",
+    "ez-connect",
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Ez-Connect",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2",
+    "react-native-fs": "^2.13.3",
     "react-native-windows": "0.41.0-rc.1"
-
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@types/react-native": "^0.57.41"
   }
 }
